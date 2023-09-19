@@ -1,0 +1,113 @@
+*{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk';
+  }
+.container{
+    margin: auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 350px;
+    display:flex;
+    border: none;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 25px;
+}
+.left{
+justify-content: space-evenly;
+padding: 20px;
+width: 250px;
+border-radius: 25px;
+background-color: hsl(241, 81%, 54%);
+color: rgba(237, 237, 237, 0.582);
+padding: 10px;
+font-size: medium;
+margin: auto;
+}
+.right{
+justify-content: space-evenly;
+padding: 20px;
+width: 250px;
+border-top-right-radius:25px;
+border-bottom-right-radius:25px;
+box-shadow: 5px 10px 10px #c0bdbd2e;
+}
+.marks{
+background-color: hsla(256, 72%, 46%, 1);
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin: auto;
+font-weight: 500;
+justify-content: center;
+text-align: center;
+border-spacing: 20px;
+margin-top: 10px;
+}
+.score{
+color: white;
+font-size: 70px;
+font-weight: 700;
+padding: 20px;
+}
+.result{
+padding: 2px;
+}
+.msg{
+color: white;
+font-size: 25px;
+padding: 20px;
+}
+.out{
+font-weight: 300;
+color: rgba(237, 237, 237, 0.582);
+}
+.rem{
+padding: 5px;
+margin-top: 10px;
+height: 30px;
+border-radius: 10px;
+text-align: right;
+}
+.summ{
+text-align: left;
+padding: 10px;
+}
+.cont{
+margin-top: 30px;
+background-color: rgb(53, 53, 53);
+color: white;
+border-radius: 25px;
+padding: 10px;
+}
+.cont:hover{
+background-color:hsl(241, 81%, 54%);
+}
+.comment{
+font-size: medium;
+color: rgba(237, 237, 237, 0.582);
+margin-bottom: 5px;
+}
+.image{
+float: left;
+padding-right: 5px;
+margin-top: 5px;
+}
+.rec{
+float: left;
+font-size: medium;
+padding: 5px;
+}
+.reaction{
+background-color: rgba(255, 0, 0, 0.056);
+}
+.memory{
+background-color: rgba(255, 200, 0, 0.084);
+}
+.verbal{
+background-color: rgba(0, 128, 0, 0.059);
+}
+.visual{
+background-color: rgba(0, 0, 255, 0.055);
+}
